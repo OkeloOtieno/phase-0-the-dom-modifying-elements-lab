@@ -6,5 +6,5 @@ if (mainElement) {
 }
 const newHeader = document.createElement('h1');
 newHeader.id = "victory";
-newHeader.textContent = "Okelo is the champion"; 
+newHeader.innerHTML = "Okelo is the champion"; 
 
